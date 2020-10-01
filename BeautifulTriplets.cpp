@@ -18,7 +18,7 @@ int main()
              {
                  for(t=j+1;t<n;t++)
                     {
-                        if(a[t]-a[j]==k)
+                        if(a.at(t)-a.at(j)==k)
                           c++;
                     }
              }
